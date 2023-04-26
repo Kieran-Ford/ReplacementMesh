@@ -1,0 +1,32 @@
+﻿  main.cpp
+  Mesh.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xtree(1375,24): error C2676: binary '!=': '_Iter' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _Iter=Halfedge
+          ]
+C:\Users\kiera\source\repos\Half Edge Operations\Half Edge Operations\Mesh.cpp(125): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<Halfedge>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=Halfedge,
+              _Ty=Halfedge,
+              _Pr=std::less<Halfedge>,
+              _Alloc=std::allocator<std::pair<const Halfedge,Halfedge>>,
+              _Iter=Halfedge
+          ]
+C:\Users\kiera\source\repos\Half Edge Operations\Half Edge Operations\Mesh.cpp(125): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::insert<Halfedge>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Kty=Halfedge,
+              _Ty=Halfedge,
+              _Pr=std::less<Halfedge>,
+              _Alloc=std::allocator<std::pair<const Halfedge,Halfedge>>,
+              _Iter=Halfedge
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xtree(1375,35): error C2675: unary '++': '_Iter' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _Iter=Halfedge
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xtree(1376,36): error C2100: illegal indirection
+  Generating Code...
